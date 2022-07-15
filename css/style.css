@@ -2371,14 +2371,14 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #c5837c;
-  border-color: #c17a74;
+  background-color: #70e0ef;
+  border-color: #70e0ef;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #c5837c;
-  border-color: #c17a74;
+  background-color: #70e0ef;
+  border-color: #70e0ef;
   box-shadow: 0 0 0 0.2rem rgba(183, 138, 135, 0.5);
 }
 
@@ -2391,8 +2391,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #c17a74;
-  border-color: #bd726b;
+  background-color: #70e0ef;
+  border-color: #70e0ef;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -4675,7 +4675,7 @@ a.badge:hover, a.badge:focus {
 
 a.badge-primary:hover, a.badge-primary:focus {
   color: #212529;
-  background-color: #c17a74;
+  background-color: #70e0ef;
 }
 
 a.badge-primary:focus, a.badge-primary.focus {
@@ -6100,7 +6100,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #c17a74 !important;
+  background-color: #70e0ef !important;
 }
 
 .bg-secondary {
@@ -7431,8 +7431,8 @@ button.bg-dark:focus {
 .mx-4 {
   margin-right: 1.5rem !important;
 }
-.size-17{
-  font-size: 17px;
+.size-15{
+  font-size: 15px;
 }
 .mb-4,
 .my-4 {
@@ -9562,8 +9562,8 @@ a.text-dark:hover, a.text-dark:focus {
   transform: scale(1.2);
 }
 .widget-image{
-  height: 142px !important;
-  width: 338px !important;
+  height: 100% !important;
+  width: 100% !important;
 }
 .product-item .btn:hover {
   color: #1e73be !important;
@@ -9598,9 +9598,34 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .nav-headr{
   display: inline-block;
-  padding: 20px;
+  padding: 11px;
   background-color: #70e0ef;
   border-radius: 10px;
+}
+li .dropdown{
+  background: #fff;
+    width: 220px;
+    position: absolute;
+    top: 100%;
+    z-index: 999;
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+    visibility: hidden;
+    padding: 10px;
+    left: 0;
+    margin: 0;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 .nav-headr:hover{
   /* border: 1px solid #000000; */
