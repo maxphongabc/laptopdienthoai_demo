@@ -9608,3 +9608,9 @@ a.text-dark:hover, a.text-dark:focus {
   background: radial-gradient(circle, rgba(189,174,238,1) 0%, rgba(148,233,229,1) 100%);
   /* box-shadow: 2px 2px #000000; */
 }
+.newfeed{
+  background-size: contain;
+}
+.newfeed:hover{
+  background-size:cover;
+}
