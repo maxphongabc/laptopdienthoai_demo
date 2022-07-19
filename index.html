@@ -62,13 +62,16 @@
             </div>
         </div>
     </div>
-    <div style="margin-left: 117px;text-align:center;margin-top: 15px;">
-        <span class="nav-headr">Trang chủ</span>
-        <span class="nav-headr">Sửa chữa</span>
-        <span class="nav-headr">Tin tức</span>
-        <span class="nav-headr">Liên hệ</span>
-        <span class="nav-headr">Thanh toán</span>
-        <span class="nav-headr">Đối tác</span>
+    <div class="container-fluid" style="margin-left: 117px;text-align:center;margin-top: 15px;">
+        <div class="col-lg-12">
+            <span class="nav-headr">Trang chủ</span>
+            <span class="nav-headr">Sửa chữa</span>
+            <span class="nav-headr">Tin tức</span>
+            <span class="nav-headr">Liên hệ</span>
+            <span class="nav-headr">Thanh toán</span>
+            <span class="nav-headr">Đối tác</span>
+        </div>
+       
     </div>
     <div class="row align-items-center py-3 px-xl-5">
         <div class="col-lg-3 d-none d-lg-block">
@@ -178,12 +181,40 @@
     </div>
 </div>
 <hr>
-
+<style>
+    .list-related-tag{
+        display: contents;
+        margin-left: auto;
+        /* padding-left: 900px; */
+        justify-items: right;
+    }
+    .related-tag{
+        margin-right: 10px;
+        float: right;
+        border-radius: 10px;
+        background-color: #f3f4f6;
+        border: 1px solid #e5e7eb;
+        color: #444;
+        padding: 5px 10px;
+        font-size: 13px;
+        white-space: nowrap;
+        height: 34px;
+    }
+</style>
 <!-- Navbar End -->
 <div class="container-fluid pt-5">
-    <div class="text-center mb-4">
+    <div class=" mb-4">
         <h2 class="section-title px-5 style-arial"><span class="px-2">Tin tức</span></h2>
+        <button style="display:none;margin-left:auto;color:#444;line-height:40px;padding-right:5px;">Xem tất cả</button>
+        <div class="list-related-tag">
+            <button class="related-tag">Xem tất cả</button>
+            <button class="related-tag">Tin 2</button>
+            <button class="related-tag">Tin 3</button>
+            <button class="related-tag">Tin 4</button>
+            <button class="related-tag">Tin 1</button>
+        </div>
     </div>
+   
     <div class="row px-xl-5 pb-3">
         <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
             <div class="d-flex align-items-center border mb-4 newfeed" style="padding: 30px;background-image: url(https://news.tandoanh.vn/wp-content/uploads/2022/07/intel-core-hx-chip-render-450x253.webp);border-radius: 10px;height: 126px;">
@@ -204,75 +235,21 @@
             <div class="d-flex align-items-center border mb-4 newfeed" style="padding: 30px;background-image: url(https://news.tandoanh.vn/wp-content/uploads/2022/07/intel-core-hx-chip-render-450x253.webp);border-radius: 10px;height: 126px;">
                 <h5 class="font-weight-semi-bold m-0" style="color:#fff;font-size: 16px;">CPU intel tăng giá sẽ.....</h5>
             </div>
-    </div>
-</div>
-
-<!-- Featured Start -->
-<div class="container-fluid pt-5">
-    <div class="text-center mb-4">
-        <h2 class="section-title px-5 style-arial"><span class="px-2">Cam kết</span></h2>
-    </div>
-    <div class="row px-xl-5 pb-3">
-        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
-                <h1 class="fa fa-check text-primary m-0 mr-3"></h1>
-                <h5 class="font-weight-semi-bold m-0">Sản phẩm chất lượng</h5>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
-                <h1 class="fa fa-shipping-fast text-primary m-0 mr-2"></h1>
-                <h5 class="font-weight-semi-bold m-0">Free Shipping</h5>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
-                <h1 class="fas fa-exchange-alt text-primary m-0 mr-3"></h1>
-                <h5 class="font-weight-semi-bold m-0">14 ngày đổi trả</h5>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
-                <h1 class="fa fa-phone-volume text-primary m-0 mr-3"></h1>
-                <h5 class="font-weight-semi-bold m-0">Hỗ trợ 24/7</h5>
-            </div>
-        </div>
     </div>
 </div>
 <!-- Featured End -->
-<!-- Offer Start -->
-<!-- <div class="container-fluid offer pt-5">
-    <div class="text-center mb-4">
-        <h2 class="section-title px-5 style-arial"><span class="px-2">Tin tức</span></h2>
-    </div>
-    <div class="row px-xl-5">
-        <div class="col-md-6 pb-4">
-            <div class="position-relative bg-secondary text-center text-md-right text-white mb-2 py-5 px-5">
-                <img src="img/offer-1.png" alt="">
-                <div class="position-relative" style="z-index: 1;">
-                    <h5 class="text-uppercase text-primary mb-3">20% off the all order</h5>
-                    <h1 class="mb-4 font-weight-semi-bold">Spring Collection</h1>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 pb-4">
-            <div class="position-relative bg-secondary text-center text-md-left text-white mb-2 py-5 px-5">
-                <img src="img/offer-2.png" alt="">
-                <div class="position-relative" style="z-index: 1;">
-                    <h5 class="text-uppercase text-primary mb-3">20% off the all order</h5>
-                    <h1 class="mb-4 font-weight-semi-bold">Winter Collection</h1>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-<!-- Offer End -->
-
-
 <!-- Products Start -->
 <div class="container-fluid pt-5">
     <div class="text-center mb-4">
         <h2 class="section-title px-5 style-arial"><span class="px-2">Điện thoại</span></h2>
+        <button style="display:none;margin-left:auto;color:#444;line-height:40px;padding-right:5px;">Xem tất cả</button>
+        <div class="list-related-tag">
+            <button class="related-tag">Xem tất cả</button>
+            <button class="related-tag">Iphone </button>
+            <button class="related-tag">Samsung</button>
+            <button class="related-tag">Oppo</button>
+            <button class="related-tag">Nokia</button>
+        </div>
     </div>
     <div class="row px-xl-5 pb-3">
         <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
@@ -414,10 +391,59 @@
     </div>
 </div>
 <!-- Products End -->
+<div style="border-radius:30px;" class="container-fluid bg-secondary my-5">
+    <div class="row  py-5 px-xl-5">
+        <div class="col-md-6 col-12 py-5">
+            <div class=" mb-2 pb-2">
+                <h2 class="section-title px-5 mb-3"><span class="bg-secondary px-2">Sửa chữa phần cứng</span></h2>
+                <p>Bao gồm hướng dẫn sửa chữa, và phân tích đánh giá các linh kiện về phần cứng của điện thoại và laptop</p>
+            </div>
+            <form action="">
+                <div class="input-group">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary px-4">Xem chi tiết</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <img src="https://laptopdienthoai.vn/wp-content/uploads/2021/05/RP-IP7.png"/>
+        </div>
+    </div>
+</div>
+<div style="border-radius:30px;" class="container-fluid bg-secondary my-5">
+    <div class="row  py-5 px-xl-5">
+        
+        <div class="col-md-6">
+            <img src="https://laptopdienthoai.vn/wp-content/uploads/2021/03/sua-chua-dien-thoai-lay-lien.jpg"/>
+        </div>
+        <div class="col-md-6 col-12 py-5">
+            <div class=" mb-2 pb-2">
+                <h2 class="section-title px-5 mb-3"><span class="bg-secondary px-2">Sữa chữa phần mềm</span></h2>
+                <p>Các vấn đề liên quan đến phần mền của điện thoại và laptop.</p>
+            </div>
+            <form action="">
+                <div class="input-group">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary px-4">Xem chi tiết</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 <!-- Products Start -->
 <div class="container-fluid pt-5">
     <div class="text-center mb-4">
         <h2 class="section-title px-5 style-arial"><span class="px-2">Laptop</span></h2>
+        <button style="display:none;margin-left:auto;color:#444;line-height:40px;padding-right:5px;">Xem tất cả</button>
+        <div class="list-related-tag">
+            <button class="related-tag">Xem tất cả</button>
+            <button class="related-tag">Dell</button>
+            <button class="related-tag">Acer</button>
+            <button class="related-tag">Asus</button>
+            <button class="related-tag">MSI</button>
+        </div>
     </div>
     <div class="row px-xl-5 pb-3">
         <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
@@ -562,40 +588,39 @@
 
 
 <!-- Vendor Start -->
-<div class="container-fluid py-5">
-    <div class="row px-xl-5">
-        <div class="col">
-            <div class="owl-carousel vendor-carousel">
-                <div class="vendor-item border p-4">
-                    <img src="img/vendor-1.jpg" alt="">
-                </div>
-                <div class="vendor-item border p-4">
-                    <img src="img/vendor-2.jpg" alt="">
-                </div>
-                <div class="vendor-item border p-4">
-                    <img src="img/vendor-3.jpg" alt="">
-                </div>
-                <div class="vendor-item border p-4">
-                    <img src="img/vendor-4.jpg" alt="">
-                </div>
-                <div class="vendor-item border p-4">
-                    <img src="img/vendor-5.jpg" alt="">
-                </div>
-                <div class="vendor-item border p-4">
-                    <img src="img/vendor-6.jpg" alt="">
-                </div>
-                <div class="vendor-item border p-4">
-                    <img src="img/vendor-7.jpg" alt="">
-                </div>
-                <div class="vendor-item border p-4">
-                    <img src="img/vendor-8.jpg" alt="">
-                </div>
+<!-- Vendor End -->
+<!-- Featured Start -->
+<div class="container-fluid pt-5">
+    <!-- <div class="text-center mb-4">
+        <h2 class="section-title px-5 style-arial"><span class="px-2">Cam kết</span></h2>
+    </div> -->
+    <div class="row px-xl-5 pb-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                <h1 class="fa fa-check text-primary m-0 mr-3"></h1>
+                <h5 class="font-weight-semi-bold m-0">Sản phẩm chất lượng</h5>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                <h1 class="fa fa-shipping-fast text-primary m-0 mr-2"></h1>
+                <h5 class="font-weight-semi-bold m-0">Free Shipping</h5>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                <h1 class="fas fa-exchange-alt text-primary m-0 mr-3"></h1>
+                <h5 class="font-weight-semi-bold m-0">14 ngày đổi trả</h5>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                <h1 class="fa fa-phone-volume text-primary m-0 mr-3"></h1>
+                <h5 class="font-weight-semi-bold m-0">Hỗ trợ 24/7</h5>
             </div>
         </div>
     </div>
 </div>
-<!-- Vendor End -->
-
 
 <!-- Footer Start -->
 <div class="container-fluid bg-secondary text-dark mt-5 pt-5">
