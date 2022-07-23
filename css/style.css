@@ -9639,6 +9639,7 @@ a.text-dark:hover, a.text-dark:focus {
 .menu-logo{
   width: 25%;
 }
+
 @media (max-width:1520px) {
   #img-stick-left{
     left: 27px !important;
@@ -9664,6 +9665,9 @@ a.text-dark:hover, a.text-dark:focus {
     }
     #img-stick-right img,#img-stick-left img{
       width:120px !important;
+    }
+    .item-phone{
+      display:block !important;
     }
   }
   @media (max-width:1250px){
